@@ -1,0 +1,14 @@
+@media  screen and (max-width:600px) {
+    body{
+        padding-top: 0px;
+    }
+    main{
+        width: 100%;
+    }
+    .tartalom .welcome{
+        font-size: 30pt;
+    }
+    .tarolo {
+        min-height: 280px;
+    }
+}

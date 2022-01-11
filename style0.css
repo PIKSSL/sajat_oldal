@@ -1,0 +1,150 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(imgs/background.png);
+    padding-top: 10px;
+}
+
+main{
+    width: 72%;
+    margin: auto;
+    display: grid;
+    grid-template-areas: "a"
+                         "f";
+}
+
+article{
+    display: grid;
+    grid-template-columns: auto;
+    grid-area: a;
+
+}
+.welcome, .python{
+    font-size: 50pt;
+    color: rgb(37, 37, 37);
+    font-family: 'Secular One', sans-serif;
+}
+h4{
+    font-size: x-large;
+}
+.menu{
+    margin: 30px
+}
+
+.menu a{
+    padding-top: 8px;
+    border: 1px solid black;
+    display: inline-block;
+    width: 200px;
+    height: 60px;
+    text-decoration: none;
+    font-size: xx-large;
+    font-family: 'Secular One', sans-serif;
+    color: white;
+    background-color: rgb(237, 27, 126);
+    margin-bottom:5px; margin-right: 5px;
+}
+a:hover, .tarlink a:hover{
+    background-color: white;
+    color: rgb(237, 27, 126);
+}
+.menu .menza{
+    background-color: grey;
+}
+.menza:hover{
+    color: black;
+}
+.tartalom{
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    background-color: rgb(241, 241, 215);
+    width: 100%;
+}
+.tartalom_rolam{
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    background-color: rgb(245, 168, 168);
+    width: 100%;
+}
+.tartalom_rolam h2 {
+    color: rgb(198, 100, 255);
+}
+.rolam {
+    display: grid;
+    grid-template-columns: 1fr 65%;
+
+}
+.rolam img {
+    width: 60%;
+    border-radius: 250px;
+    margin-left: 80px;
+    margin-bottom: 30px;
+}
+.rolam p {
+    overflow: auto;
+    max-height: 600px;
+    background-color: rgb(221, 180, 245);
+    margin-bottom: 20px;
+    margin-right: 100px;
+    margin-top: 40px;
+    padding-top: 10px;
+    padding-right: 10px;
+    border-radius: 30px;
+    font-size: larger;
+}
+.grid_tarolo{
+    overflow: auto;
+    max-height: 600px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.tarolo .tarlink{
+    position: absolute;
+    margin-top: 60px;
+    margin-left: 110px;
+}   
+.tarlink a{
+    font-family: 'Secular One', sans-serif;
+    color: white;
+    text-decoration: none;
+    border: black 1px solid;
+    padding-left:30px; padding-right: 30px;
+    padding-top: 15px; padding-bottom: 15px;
+    background-color: rgb(237, 27, 126);
+}
+
+.tartalom .py{
+    width: 300px;
+}
+
+
+.cim{
+    color: rgb(0, 0, 0);
+}
+footer .tartalom{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    height: 70px;
+    background-color: rgb(46, 46, 46);
+    color:beige;
+
+}
+footer .tartalom .el_h{
+    padding-top: 7px;
+    text-align: right;
+    margin: 15px;
+
+}
+footer .tartalom h5{
+    text-align: left;
+    margin: 15px;
+    padding-top: 7px;
+}
